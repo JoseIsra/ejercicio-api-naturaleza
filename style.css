@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width:80%;
+}
+
+.titulo
+{
+    position:absolute;
+    left:30%;
+    top:50px;
+}
+
+.formulario{
+position:relative;
+left:40%;
+top:100px;
+width:300px;
+padding:10px;
+}
+
+.formulario form #entrada
+{
+    padding:5px;
+    font-size: 20px;
+}
+
+.formulario form #btn-buscar
+{
+    margin-top: 10px;
+    position:relative;
+    padding:10px;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 20px;
+    left:80px
+}
+
+
+img{
+width:100%;
+}
+
+.imagenes
+{
+    position: relative;
+    top:100px;
+column-count: 3;
+}
+
+
+@media (max-width: 1200px) {
+    .imagenes {
+    column-count: 2;
+    }
+}
+
+@media (max-width: 800px) {
+    .imagenes {
+    column-count: 1;
+    }
